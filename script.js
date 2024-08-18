@@ -28,9 +28,16 @@ fetch(DATA_URL)
     showData(data.students);
   })
   .catch(error => {
-    console.error('There was a problem with the fetch operation:', error);
+    console.error('Problemas con el fetch', error);
   });
 
 // fetch luego de recibir una url , o sea then, debe de realizar lo indicado
 // normalmente es algo como response => response.json , es una funcion que recibe un dato y lo
 // transforma  en json
+// data es el objeto JS resultante del JSON y .students accede la propiedad 
+// con ese nombre
+ 
+
+//.catch es un metodo que identifica los errores que pueden haber habido en el .then
+//recibe una función que toma un parámetro, generalmente llamado error
+//console.error registra error en la consola

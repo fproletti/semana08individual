@@ -7,6 +7,7 @@
     { "name": "Rita", "lastname": "Csharp", "age": 30 },
     { "name": "Kowalski", "lastname": "Perl", "age": 20 },
     { "name": "Giannina", "lastname": "Lambda", "age": 26 },
-    { "name": "Mar", "lastname": "Cobol", "age": 29 }
+    { "name": "Mar", "lastname": "Cobol", "age": 29 },
+    { "name": "Pablo", "lastname": "Suarez", "age": 16 }
   ]
 }
